@@ -1,0 +1,13 @@
+[package]
+name = "megastore"
+version = "0.1.0"
+edition = "2021"
+default-run = "megastore"
+
+[lib]
+name = "megastore"
+path = "src/lib.rs"
+
+[[bin]]
+name = "megastore"
+path = "src/main.rs"
